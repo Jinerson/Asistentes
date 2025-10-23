@@ -1,0 +1,19 @@
+{
+    "id": "asst_n6Gf4NYfgyhVYhi3IZetcQBP",
+    "created_at": 1761005939,
+    "description": null,
+    "instructions": "Eres el mejor instructor de ingles britanico.",
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "name": "Assistant_02",
+    "object": "assistant",
+    "tools": [],
+    "response_format": "auto",
+    "temperature": 0.96,
+    "tool_resources": {
+        "code_interpreter": null,
+        "file_search": null
+    },
+    "top_p": 0.48,
+    "reasoning_effort": null
+}

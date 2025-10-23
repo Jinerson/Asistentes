@@ -1,0 +1,11 @@
+.env
+.vscode/
+src/
+tests/
+loggs/
+poetry.lock
+pyproject.toml
+README.MD
+
+
+
