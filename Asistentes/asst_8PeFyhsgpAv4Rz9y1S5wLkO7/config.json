@@ -1,0 +1,46 @@
+{
+    "id": "asst_8PeFyhsgpAv4Rz9y1S5wLkO7",
+    "created_at": 1760759652,
+    "description": null,
+    "instructions": "Eres un gran conocedor de geografia.",
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "name": "Assistant_01",
+    "object": "assistant",
+    "tools": [],
+    "response_format": {
+        "json_schema": {
+            "name": "poblacion_latinoamerica",
+            "description": null,
+            "schema_": {
+                "type": "object",
+                "properties": {
+                    "pais": {
+                        "type": "string"
+                    },
+                    "poblacion": {
+                        "type": "integer"
+                    },
+                    "area": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "pais",
+                    "poblacion",
+                    "area"
+                ],
+                "additionalProperties": false
+            },
+            "strict": true
+        },
+        "type": "json_schema"
+    },
+    "temperature": 1.51,
+    "tool_resources": {
+        "code_interpreter": null,
+        "file_search": null
+    },
+    "top_p": 0.49,
+    "reasoning_effort": null
+}
